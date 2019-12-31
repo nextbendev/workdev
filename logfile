@@ -1,0 +1,6 @@
+2019-12-31 13:08:02.989 EST [1968] LOG:  starting PostgreSQL 12.1 on x86_64-apple-darwin19.0.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.12), 64-bit
+2019-12-31 13:08:02.991 EST [1968] LOG:  listening on IPv6 address "::1", port 5432
+2019-12-31 13:08:02.992 EST [1968] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-12-31 13:08:02.992 EST [1968] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-12-31 13:08:03.005 EST [1969] LOG:  database system was shut down at 2019-12-31 13:06:09 EST
+2019-12-31 13:08:03.008 EST [1968] LOG:  database system is ready to accept connections
