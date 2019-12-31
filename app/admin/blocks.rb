@@ -1,11 +1,8 @@
 ActiveAdmin.register Block do
 
-  # See permitted parameters documentation:
-  # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
-  #
-  # Uncomment all parameters which should be permitted for assignment
-  #
-  # permit_params :title, :body, :position, :display, :show_title, :class_suffix, :is_published
+
+
+  permit_params :title, :body, :position, :display, :show_title, :class_suffix, :is_published
   #
   # or
   #
@@ -14,5 +11,19 @@ ActiveAdmin.register Block do
   #   permitted << :other if params[:action] == 'create' && current_user.admin?
   #   permitted
   # end
-  
+  form do |f|
+    f.inputs "Details" do
+      f.input :title, :label => "Title"
+      f.input :show_title, :label => "Show Title"
+      f.input :body, :label => "Body"
+      f.input :position, :label => "Position", :as => :select, :collections => [ ["Jumbotron", "jumbotron" ], ["Block", "block"]]
+      f.input :display, :label => "Display", :as => :select, :collections => [ ["All pages", "all" ], ["Homepage Only", "home"], ["All But Homepage", "nohome"]]
+      f.input :order, :label => "Order"
+      f.input :class_suffix, :label => "Class Sufix"
+      f.input :is_published, :label => "Published"
+      f.actions
+    end
+
+
+end
 end
