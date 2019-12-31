@@ -12,6 +12,10 @@ gem 'pg'
 
 gem 'activeadmin'
 
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+
+gem 'autoprefixer-rails'
+
 # Plus integrations with:
 gem 'devise', '~> 4.2'
 gem 'cancancan'
@@ -19,6 +23,7 @@ gem 'draper'
 gem 'pundit'
 gem 'jquery-rails'
 gem 'puma', '~> 4.1'
+gem 'bootstrap', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'sass-rails', '>= 6'
