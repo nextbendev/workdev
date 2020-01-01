@@ -17,7 +17,7 @@ ActiveAdmin.register Block do
       f.input :show_title, :label => "Show Title"
       f.input :body, :label => "Body"
       f.input :position, :label => "Position", :as => :select, :collections => [ ["Jumbotron", "jumbotron" ], ["Block", "block"]]
-      f.input :display, :label => "Display", :as => :select, :collections => [ ["All pages", "all" ], ["Homepage Only", "home"], ["All But Homepage", "nohome"]]
+      f.input :display, :label => "Display", :as => :select, :collections => [ ["All pages", "all" ],["Homepage Only", "home"], ["All But Homepage", "nohome"]]
       f.input :order, :label => "Order"
       f.input :class_suffix, :label => "Class Sufix"
       f.input :is_published, :label => "Published"
