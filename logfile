@@ -17,6 +17,7 @@
 2019-12-31 20:03:42.839 EST [953] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2019-12-31 20:03:42.951 EST [954] LOG:  database system was shut down at 2019-12-31 19:49:50 EST
 2019-12-31 20:03:43.027 EST [953] LOG:  database system is ready to accept connections
+<<<<<<< HEAD
 2020-01-01 01:45:36.914 EST [953] LOG:  received smart shutdown request
 2020-01-01 01:45:36.930 EST [953] LOG:  background worker "logical replication launcher" (PID 960) exited with exit code 1
 2020-01-01 01:45:36.930 EST [955] LOG:  shutting down
@@ -27,3 +28,5 @@
 2020-01-01 01:52:31.630 EST [837] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2020-01-01 01:52:31.759 EST [838] LOG:  database system was shut down at 2020-01-01 01:45:36 EST
 2020-01-01 01:52:31.859 EST [837] LOG:  database system is ready to accept connections
+=======
+>>>>>>> 0f6919bdfc8233f23119626852812210642692ab
