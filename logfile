@@ -4,3 +4,13 @@
 2019-12-31 13:08:02.992 EST [1968] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
 2019-12-31 13:08:03.005 EST [1969] LOG:  database system was shut down at 2019-12-31 13:06:09 EST
 2019-12-31 13:08:03.008 EST [1968] LOG:  database system is ready to accept connections
+2020-01-01 03:21:45.191 EST [1216] FATAL:  lock file "postmaster.pid" already exists
+2020-01-01 03:21:45.191 EST [1216] HINT:  Is another postmaster (PID 805) running in data directory "/usr/local/var/postgres"?
+2020-01-01 03:22:07.778 EST [1224] FATAL:  lock file "postmaster.pid" already exists
+2020-01-01 03:22:07.778 EST [1224] HINT:  Is another postmaster (PID 805) running in data directory "/usr/local/var/postgres"?
+2020-01-02 19:26:04.561 EST [2576] LOG:  starting PostgreSQL 12.1 on x86_64-apple-darwin19.0.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.12), 64-bit
+2020-01-02 19:26:04.590 EST [2576] LOG:  listening on IPv6 address "::1", port 5432
+2020-01-02 19:26:04.591 EST [2576] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-01-02 19:26:04.609 EST [2576] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-01-02 19:26:04.811 EST [2577] LOG:  database system was shut down at 2020-01-02 19:05:51 EST
+2020-01-02 19:26:04.871 EST [2576] LOG:  database system is ready to accept connections

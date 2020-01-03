@@ -12,6 +12,7 @@ gem 'activeadmin-ckeditor', '~> 0.0.19'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 gem 'activeadmin'
 gem 'paperclip', '~> 6.1'
+gem 'bundler', '~> 2.1', '>= 2.1.2'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 
@@ -31,6 +32,7 @@ gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'webpacker', '~> 4.2', '>= 4.2.2'
+gem 'railties', '~> 6.0', '>= 6.0.2.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
