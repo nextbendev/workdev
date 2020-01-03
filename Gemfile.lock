@@ -48,10 +48,6 @@ GEM
       ransack (~> 2.1, >= 2.1.1)
       sassc-rails (~> 2.1)
       sprockets (>= 3.0, < 4.1)
-    activeadmin-ckeditor (0.0.19)
-      activeadmin
-      ckeditor
-      paperclip
     activejob (6.0.2.1)
       activesupport (= 6.0.2.1)
       globalid (>= 0.3.6)
@@ -125,6 +121,9 @@ GEM
       activesupport (>= 4.1)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
+    image_processing (1.10.0)
+      mini_magick (>= 4.9.5, < 5)
+      ruby-vips (>= 2.0.13, < 3)
     inherited_resources (1.11.0)
       actionpack (>= 5.0, < 6.1)
       has_scope (~> 0.6)
@@ -164,6 +163,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.1009)
     mimemagic (0.3.3)
+    mini_magick (4.9.5)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.13.0)
@@ -232,6 +232,8 @@ GEM
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
+    ruby-vips (2.0.16)
+      ffi (~> 1.9)
     ruby_dep (1.5.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -288,7 +290,6 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
-  activeadmin-ckeditor (~> 0.0.19)
   autoprefixer-rails
   bootsnap (>= 1.4.2)
   bootstrap (~> 4.4, >= 4.4.1)
@@ -296,18 +297,23 @@ DEPENDENCIES
   bundler (~> 2.1, >= 2.1.2)
   byebug
   cancancan
+  ckeditor (~> 5.0)
   devise (~> 4.2)
   draper
+  ffi (~> 1.11, >= 1.11.3)
   font-awesome-rails (~> 4.7, >= 4.7.0.5)
+  image_processing (~> 1.10)
   jbuilder (~> 2.7)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  mini_magick (~> 4.9, >= 4.9.5)
   paperclip (~> 6.1)
   pg
   puma (~> 4.1)
   pundit
   rails (~> 6.0.2, >= 6.0.2.1)
   railties (~> 6.0, >= 6.0.2.1)
+  ruby-vips (~> 2.0, >= 2.0.16)
   sass-rails (>= 6)
   sassc-rails (>= 2.1.0)
   simple_form (~> 5.0, >= 5.0.1)
