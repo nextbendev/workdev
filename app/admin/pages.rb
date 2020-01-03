@@ -23,6 +23,7 @@ end
     f.inputs "Details" do
       f.input :title, :label => "Title"
       f.input :section, :label => "Section"
+      f.input :body, :class => 'ckeditor', :label => "wzzy"
       f.input :body, :label => "Body"
       f.input :order, :label => "Order"
       f.input :is_published, :label => "Published"

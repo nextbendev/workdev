@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # Use postgresql as the database for Active Record
 
 gem 'pg'
-gem 'activeadmin-ckeditor', '~> 0.0.19'
+gem 'ckeditor', '~> 5.0'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 gem 'activeadmin'
 gem 'paperclip', '~> 6.1'
