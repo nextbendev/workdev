@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.7.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
@@ -11,7 +11,7 @@ gem 'pg'
 gem 'ckeditor', '~> 5.0'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 gem 'activeadmin'
-gem 'paperclip', '~> 6.1'
+
 gem 'bundler', '~> 2.1', '>= 2.1.2'
 
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
