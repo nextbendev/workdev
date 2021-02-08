@@ -43,7 +43,7 @@ gem 'image_processing', '~> 1.10'
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 gem 'ruby-vips', '~> 2.0', '>= 2.0.16'
 gem 'ffi', '~> 1.11', '>= 1.11.3'
-gem 'carrierwave', '~> 2.0', '>= 2.0.2'
+gem 'carrierwave', '~> 2.1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
