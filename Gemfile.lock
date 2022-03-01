@@ -129,7 +129,7 @@ GEM
       activesupport (>= 4.1)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    image_processing (1.10.3)
+    image_processing (1.12.2)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
     inherited_resources (1.11.0)
@@ -300,7 +300,7 @@ DEPENDENCIES
   draper
   ffi (~> 1.11, >= 1.11.3)
   font-awesome-rails (~> 4.7, >= 4.7.0.5)
-  image_processing (~> 1.10)
+  image_processing (~> 1.12)
   jbuilder (~> 2.7)
   jquery-rails
   listen (>= 3.0.5, < 3.2)

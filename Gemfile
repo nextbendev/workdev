@@ -39,7 +39,7 @@ gem 'railties', '~> 6.0', '>= 6.0.2.1'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Active Storage variant
-gem 'image_processing', '~> 1.10'
+gem 'image_processing', '~> 1.12'
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 gem 'ruby-vips', '~> 2.0', '>= 2.0.16'
 gem 'ffi', '~> 1.11', '>= 1.11.3'
